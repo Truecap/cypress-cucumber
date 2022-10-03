@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Telnyx/cypress",
+    "name": "Clickability buttons",
     "line": 1,
-    "id": "telnyx/cypress",
+    "id": "clickability-buttons",
     "tags": [],
     "uri": "ClickabilityButtons.feature",
     "elements": [
       {
-        "id": "telnyx/cypress;verify-clickability-buttons",
+        "id": "clickability-buttons;verify-clickability-buttons",
         "keyword": "Scenario",
         "line": 7,
         "name": "Verify clickability buttons",
@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 4442000000
+              "duration": 10353000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover on solutions tab",
             "result": {
               "status": "passed",
-              "duration": 506000000
+              "duration": 183000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Solutons drop-down is open and I click contact center button",
             "result": {
               "status": "passed",
-              "duration": 7977000000
+              "duration": 9687000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I scroll to Phone Calls button and click",
             "result": {
               "status": "passed",
-              "duration": 1203000000
+              "duration": 1582000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I see Sip-trunks page header",
             "result": {
               "status": "passed",
-              "duration": 8978000000
+              "duration": 18731000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I click back",
             "result": {
               "status": "passed",
-              "duration": 7590000000
+              "duration": 11036000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I click Text Messages button",
             "result": {
               "status": "passed",
-              "duration": 7759000000
+              "duration": 8444000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I see Sms Api page header",
             "result": {
               "status": "passed",
-              "duration": 205000000
+              "duration": 148000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I click back again",
             "result": {
               "status": "passed",
-              "duration": 8391000000
+              "duration": 6896000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I click Browser Based button",
             "result": {
               "status": "passed",
-              "duration": 7616000000
+              "duration": 859000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I see webrtc page header",
             "result": {
               "status": "passed",
-              "duration": 210000000
+              "duration": 10812000000
             }
           }
         ]

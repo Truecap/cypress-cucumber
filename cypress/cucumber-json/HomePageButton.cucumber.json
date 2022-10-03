@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Telnyx/cypress",
+    "name": "Home page button",
     "line": 1,
-    "id": "telnyx/cypress",
+    "id": "home-page-button",
     "tags": [],
     "uri": "HomePageButton.feature",
     "elements": [
       {
-        "id": "telnyx/cypress;verify-home-page-button",
+        "id": "home-page-button;verify-home-page-button",
         "keyword": "Scenario",
         "line": 7,
         "name": "Verify home page button",
@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8933000000
+              "duration": 8515000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I scroll to About us button and click",
             "result": {
               "status": "passed",
-              "duration": 24472000000
+              "duration": 7414000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I see header About us Page",
             "result": {
               "status": "passed",
-              "duration": 86000000
+              "duration": 82000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on Home page button",
             "result": {
               "status": "passed",
-              "duration": 808000000
+              "duration": 570000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I see picture on home page",
             "result": {
               "status": "passed",
-              "duration": 7752000000
+              "duration": 7418000000
             }
           }
         ]

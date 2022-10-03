@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Telnyx/cypress",
+    "name": "Calculator",
     "line": 1,
-    "id": "telnyx/cypress",
+    "id": "calculator",
     "tags": [],
     "uri": "Calculator.feature",
     "elements": [
       {
-        "id": "telnyx/cypress;verify-saving-calculator",
+        "id": "calculator;verify-saving-calculator",
         "keyword": "Scenario",
         "line": 7,
         "name": "Verify saving calculator",
@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 12219000000
+              "duration": 6335000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover on resource tab",
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 1194000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Resources drop-down is open and I click Saving Calculator button",
             "result": {
               "status": "passed",
-              "duration": 8626000000
+              "duration": 8972000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click Messaging Api button",
             "result": {
               "status": "passed",
-              "duration": 1840000000
+              "duration": 1155000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I click continue button",
             "result": {
               "status": "passed",
-              "duration": 1453000000
+              "duration": 1261000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I type '1' to the Local Numbers input",
             "result": {
               "status": "passed",
-              "duration": 1720000000
+              "duration": 2924000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I type '1' to the Toll-free Numbers",
             "result": {
               "status": "passed",
-              "duration": 1455000000
+              "duration": 1194000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click continue button again",
             "result": {
               "status": "passed",
-              "duration": 991000000
+              "duration": 911000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I see posible savings",
             "result": {
               "status": "passed",
-              "duration": 124000000
+              "duration": 142000000
             }
           }
         ]

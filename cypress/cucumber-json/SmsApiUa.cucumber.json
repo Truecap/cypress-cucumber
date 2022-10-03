@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Telnyx/cypress",
+    "name": "Sms Api",
     "line": 1,
-    "id": "telnyx/cypress",
+    "id": "sms-api",
     "tags": [],
     "uri": "SmsApiUa.feature",
     "elements": [
       {
-        "id": "telnyx/cypress;find-price-for-sms-api-for-ukraine-in-usd",
+        "id": "sms-api;find-price-for-sms-api-for-ukraine-in-usd",
         "keyword": "Scenario",
         "line": 7,
         "name": "Find price for sms api for Ukraine in usd",
@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8792000000
+              "duration": 4899000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover on pricing tab",
             "result": {
               "status": "passed",
-              "duration": 261000000
+              "duration": 532000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Pricng drop-down is open and I click Sms Api button",
             "result": {
               "status": "passed",
-              "duration": 10767000000
+              "duration": 8907000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I choose Ulkraine from country drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 11986000000
+              "duration": 3013000000
             }
           },
           {
@@ -62,13 +62,13 @@
             "name": "I see price in usd",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 8511000000
             }
           }
         ]
       },
       {
-        "id": "telnyx/cypress;find-price-for-sms-api-for-ukraine-in-euro",
+        "id": "sms-api;find-price-for-sms-api-for-ukraine-in-euro",
         "keyword": "Scenario",
         "line": 15,
         "name": "Find price for sms api for Ukraine in euro",
@@ -82,7 +82,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 7817000000
+              "duration": 6184000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I hover on pricing tab",
             "result": {
               "status": "passed",
-              "duration": 182000000
+              "duration": 145000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Pricng drop-down is open and I click Sms Api button",
             "result": {
               "status": "passed",
-              "duration": 6104000000
+              "duration": 6612000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I choose Ulkraine from country drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 8378000000
+              "duration": 9423000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I choose euro from currency drop-down",
             "result": {
               "status": "passed",
-              "duration": 2105000000
+              "duration": 2123000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I see price in euro",
             "result": {
               "status": "passed",
-              "duration": 512000000
+              "duration": 683000000
             }
           }
         ]

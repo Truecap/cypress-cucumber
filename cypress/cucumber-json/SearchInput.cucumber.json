@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Telnyx/cypress",
+    "name": "Search Input",
     "line": 1,
-    "id": "telnyx/cypress",
+    "id": "search-input",
     "tags": [],
     "uri": "SearchInput.feature",
     "elements": [
       {
-        "id": "telnyx/cypress;verify-search-input",
+        "id": "search-input;verify-search-input",
         "keyword": "Scenario",
         "line": 7,
         "name": "Verify search input",
@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 4580000000
+              "duration": 8652000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover to resource tab",
             "result": {
               "status": "passed",
-              "duration": 398000000
+              "duration": 205000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Resources drop-down is open and I click Blog button",
             "result": {
               "status": "passed",
-              "duration": 8280000000
+              "duration": 6162000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I type 'number pool' to the input field and click enter button",
             "result": {
               "status": "passed",
-              "duration": 3873000000
+              "duration": 8357000000
             }
           },
           {

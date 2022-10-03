@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Telnyx/cypress",
+    "name": "Tabs on Homepage",
     "line": 1,
-    "id": "telnyx/cypress",
+    "id": "tabs-on-homepage",
     "tags": [],
     "uri": "VerifyTabs.feature",
     "elements": [
       {
-        "id": "telnyx/cypress;open-company-drop-down-menu",
+        "id": "tabs-on-homepage;open-company-drop-down-menu",
         "keyword": "Scenario",
         "line": 6,
         "name": "Open Company drop-down menu",
@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 4576000000
+              "duration": 4548000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover to Company tab",
             "result": {
               "status": "passed",
-              "duration": 462000000
+              "duration": 534000000
             }
           },
           {
@@ -42,13 +42,13 @@
             "name": "I see open company drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 765000000
+              "duration": 1074000000
             }
           }
         ]
       },
       {
-        "id": "telnyx/cypress;open-pricing-drop-down-menu",
+        "id": "tabs-on-homepage;open-pricing-drop-down-menu",
         "keyword": "Scenario",
         "line": 10,
         "name": "Open Pricing drop-down menu",
@@ -62,7 +62,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8436000000
+              "duration": 8256000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I hover to Pricing tab",
             "result": {
               "status": "passed",
-              "duration": 218000000
+              "duration": 162000000
             }
           },
           {
@@ -82,13 +82,13 @@
             "name": "I see open pricing drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 623000000
+              "duration": 488000000
             }
           }
         ]
       },
       {
-        "id": "telnyx/cypress;open-products-drop-down-menu",
+        "id": "tabs-on-homepage;open-products-drop-down-menu",
         "keyword": "Scenario",
         "line": 14,
         "name": "Open Products drop-down menu",
@@ -102,7 +102,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 7732000000
+              "duration": 7077000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I hover to Products tab",
             "result": {
               "status": "passed",
-              "duration": 172000000
+              "duration": 141000000
             }
           },
           {
@@ -122,13 +122,13 @@
             "name": "I see open products drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 446000000
+              "duration": 638000000
             }
           }
         ]
       },
       {
-        "id": "telnyx/cypress;open-solutions-drop-down-menu",
+        "id": "tabs-on-homepage;open-solutions-drop-down-menu",
         "keyword": "Scenario",
         "line": 18,
         "name": "Open Solutions drop-down menu",
@@ -142,7 +142,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 6043000000
+              "duration": 7703000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I hover to Solutions tab",
             "result": {
               "status": "passed",
-              "duration": 173000000
+              "duration": 424000000
             }
           },
           {
@@ -162,13 +162,13 @@
             "name": "I see open solutions drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 849000000
+              "duration": 420000000
             }
           }
         ]
       },
       {
-        "id": "telnyx/cypress;open-resources-drop-down-menu",
+        "id": "tabs-on-homepage;open-resources-drop-down-menu",
         "keyword": "Scenario",
         "line": 22,
         "name": "Open Resources drop-down menu",
@@ -182,7 +182,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 7641000000
+              "duration": 7954000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "I hover to Resources tab",
             "result": {
               "status": "passed",
-              "duration": 199000000
+              "duration": 216000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I see open resources drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 498000000
+              "duration": 454000000
             }
           }
         ]
