@@ -1,0 +1,37 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:report": "node cucumber-html-report.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/Step_definition",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "cypress": "^10.4.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-real-events": "^1.7.1",
+    "mochawesome": "^6.2.0"
+  }
+}

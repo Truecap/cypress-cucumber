@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Telnyx/cypress",
+    "line": 1,
+    "id": "telnyx/cypress",
+    "tags": [],
+    "uri": "SmsApiUa.feature",
+    "elements": [
+      {
+        "id": "telnyx/cypress;find-price-for-sms-api-for-ukraine-in-usd",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Find price for sms api for Ukraine in usd",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 8792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I hover on pricing tab",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Pricng drop-down is open and I click Sms Api button",
+            "result": {
+              "status": "passed",
+              "duration": 10767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I choose Ulkraine from country drop-down menu",
+            "result": {
+              "status": "passed",
+              "duration": 11986000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see price in usd",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "telnyx/cypress;find-price-for-sms-api-for-ukraine-in-euro",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Find price for sms api for Ukraine in euro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 7817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I hover on pricing tab",
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Pricng drop-down is open and I click Sms Api button",
+            "result": {
+              "status": "passed",
+              "duration": 6104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I choose Ulkraine from country drop-down menu",
+            "result": {
+              "status": "passed",
+              "duration": 8378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I choose euro from currency drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 2105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I see price in euro",
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Telnyx/cypress",
+    "line": 1,
+    "id": "telnyx/cypress",
+    "tags": [],
+    "uri": "VerifyTabs.feature",
+    "elements": [
+      {
+        "id": "telnyx/cypress;open-company-drop-down-menu",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Open Company drop-down menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 4576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I hover to Company tab",
+            "result": {
+              "status": "passed",
+              "duration": 462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see open company drop-down menu",
+            "result": {
+              "status": "passed",
+              "duration": 765000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "telnyx/cypress;open-pricing-drop-down-menu",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Open Pricing drop-down menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 8436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I hover to Pricing tab",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I see open pricing drop-down menu",
+            "result": {
+              "status": "passed",
+              "duration": 623000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "telnyx/cypress;open-products-drop-down-menu",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Open Products drop-down menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 7732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I hover to Products tab",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see open products drop-down menu",
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "telnyx/cypress;open-solutions-drop-down-menu",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Open Solutions drop-down menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 6043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I hover to Solutions tab",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I see open solutions drop-down menu",
+            "result": {
+              "status": "passed",
+              "duration": 849000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "telnyx/cypress;open-resources-drop-down-menu",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Open Resources drop-down menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 7641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I hover to Resources tab",
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I see open resources drop-down menu",
+            "result": {
+              "status": "passed",
+              "duration": 498000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

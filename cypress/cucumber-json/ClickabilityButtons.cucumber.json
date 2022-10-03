@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Telnyx/cypress",
+    "line": 1,
+    "id": "telnyx/cypress",
+    "tags": [],
+    "uri": "ClickabilityButtons.feature",
+    "elements": [
+      {
+        "id": "telnyx/cypress;verify-clickability-buttons",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify clickability buttons",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I m launch web application",
+            "result": {
+              "status": "passed",
+              "duration": 4442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I hover on solutions tab",
+            "result": {
+              "status": "passed",
+              "duration": 506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Solutons drop-down is open and I click contact center button",
+            "result": {
+              "status": "passed",
+              "duration": 7977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I scroll to Phone Calls button and click",
+            "result": {
+              "status": "passed",
+              "duration": 1203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see Sip-trunks page header",
+            "result": {
+              "status": "passed",
+              "duration": 8978000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I click back",
+            "result": {
+              "status": "passed",
+              "duration": 7590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click Text Messages button",
+            "result": {
+              "status": "passed",
+              "duration": 7759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I see Sms Api page header",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click back again",
+            "result": {
+              "status": "passed",
+              "duration": 8391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click Browser Based button",
+            "result": {
+              "status": "passed",
+              "duration": 7616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I see webrtc page header",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
