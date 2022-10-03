@@ -3,4 +3,4 @@ allure-report/**
 allure-results/**
 screenshots
 videos
-All.features
+cypress/e2e/Features/All.features
