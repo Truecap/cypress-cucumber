@@ -30,7 +30,7 @@ jobs:
               if: always()
               with:
                   name: cucumber-report
-                  path: ./reports/cucumber-htmlreport
+                  path: ./reports/cucumber-htmlreport/index.html
                   retention-days: 5 
             - name: Deploy to pages
               if: always()
