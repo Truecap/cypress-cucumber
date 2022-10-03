@@ -24,7 +24,7 @@ jobs:
               run: npm run cy:run
             - name: Generate reports
               if: always()
-              run: npm run cypress:report
+              run: npm run cy:report
             - name: Upload artifact cucumber-report
               uses: actions/upload-artifact@v3
               if: always()
