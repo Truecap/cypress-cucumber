@@ -737,15 +737,15 @@ input#darkCheck:checked ~ label>svg#moon {
                 
             </div>
             <h1>Feature:
-                <small>Calculator</small>
+                <small>Negative Log in</small>
             </h1>
             
                 <p>
                <p><strong>File name:</strong>
-                    Calculator.feature
+                    NegativeLogin.feature
                 </p>
                 <p><strong>Relative path:</strong>
-                    Calculator.feature</p>
+                    NegativeLogin.feature</p>
             
         </div>
 
@@ -783,7 +783,7 @@ input#darkCheck:checked ~ label>svg#moon {
         <tr>
             <td class="chart">
                 <canvas id="scenario-chart"></canvas>
-                <div class="total">1</div>
+                <div class="total">2</div>
             </td>
             <td>
                 <table class="tile_info">
@@ -794,7 +794,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">0.00 %</td>
+                        <td class="percentage">100.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -803,7 +803,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Failed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">0.00 %</td>
                     
                     
                     </tr>
@@ -934,7 +934,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                 </div>
 
-                <h2>Scenario: <small>Verify saving calculator</small></h2>
+                <h2>Scenario: <small>Log In with invalid email</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -946,20 +946,12 @@ input#darkCheck:checked ~ label>svg#moon {
                     
 
                     
-                        <li>
-                            <span class="step skipped-background" data-toggle="tooltip" title="Scenario is skipped">6</span>
-                        </li>
+
                     
 
                     
                         <li>
-                            <span class="step failed-background" data-toggle="tooltip" title="Scenario failed">1</span>
-                        </li>
-                    
-
-                    
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">2</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">5</span>
                         </li>
                     
 
@@ -1049,7 +1041,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">When </span>
 
                                     
-                                        I hover on resource tab
+                                        I click Log in button
                                         
                                     
 
@@ -1099,8 +1091,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step failed">
-                                            <i class="fa fa-exclamation-circle fa-2x failed-color"></i>
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
                                         </div>
                                     
                                 
@@ -1109,7 +1101,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        Resources drop-down is open and I click Saving Calculator button
+                                        I enter Invalid email and my password
                                         
                                     
 
@@ -1120,8 +1112,6 @@ input#darkCheck:checked ~ label>svg#moon {
                                 
                                     
 
-                                    
-                                        <a href="#error0-2-error" data-toggle="collapse">+ Show Error</a>
                                     
 
                                     
@@ -1137,36 +1127,6 @@ input#darkCheck:checked ~ label>svg#moon {
                             </div>
 
                         
-                            
-                                <div id="error0-2-error" class="scenario-step-collapse collapse">
-                                    <pre class=info>CypressError: Timed out after waiting `10000ms` for your remote page to load.
-
-Your page did not fire its `load` event within `10000ms`.
-
-You can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.
-
-Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
-
-When this `load` event occurs, Cypress will continue running commands.
-    at timedOutWaitingForPageLoad (https://telnyx.com/__cypress/runner/cypress_runner.js:141075:72)
-    at (unknown) (https://telnyx.com/__cypress/runner/cypress_runner.js:141453:16)
-    at tryCatcher (https://telnyx.com/__cypress/runner/cypress_runner.js:11318:23)
-    at (unknown) (https://telnyx.com/__cypress/runner/cypress_runner.js:6440:41)
-    at tryCatcher (https://telnyx.com/__cypress/runner/cypress_runner.js:11318:23)
-    at Promise._settlePromiseFromHandler (https://telnyx.com/__cypress/runner/cypress_runner.js:9253:31)
-    at Promise._settlePromise (https://telnyx.com/__cypress/runner/cypress_runner.js:9310:18)
-    at Promise._settlePromise0 (https://telnyx.com/__cypress/runner/cypress_runner.js:9355:10)
-    at Promise._settlePromises (https://telnyx.com/__cypress/runner/cypress_runner.js:9431:18)
-    at _drainQueueStep (https://telnyx.com/__cypress/runner/cypress_runner.js:6025:12)
-    at _drainQueue (https://telnyx.com/__cypress/runner/cypress_runner.js:6018:9)
-    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://telnyx.com/__cypress/runner/cypress_runner.js:6034:5)
-    at Async.drainQueues (https://telnyx.com/__cypress/runner/cypress_runner.js:5904:14)
-From Your Spec Code:
-    at Context.stepTest (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:35:0)
-    at eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:54:0)
-at Array.forEach ((anonymous))
-    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:53:0)</pre>
-                                </div>
                             
 
                             
@@ -1191,8 +1151,295 @@ at Array.forEach ((anonymous))
 
                                 
                                     
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
-                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">And </span>
+
+                                    
+                                        I click submit button
+                                        
+                                    
+
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">And </span>
+
+                                    
+                                        I see error message
+                                        
+                                    
+
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel" style="height: auto;">
+            <div class="x_title">
+
+                <div class="tags">
+                    
+                        
+                        
+                    
+                </div>
+
+                <h2>Scenario: <small>Log In with invalid password</small></h2>
+
+                <ul class="nav navbar-right panel_toolbox">
+                    <li>
+                        <a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
+                    </li>
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        <li>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">5</span>
+                        </li>
+                    
+
+                    
+
+                    
+                </ul>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="x_content" style="display: none;">
+                <div class="scenario-step-container"></div>
+                    
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Given </span>
+
+                                    
+                                        I m launch web application
+                                        
+                                    
+
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">When </span>
+
+                                    
+                                        I click Log in button
+                                        
+                                    
+
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
                                         </div>
                                     
                                 
@@ -1201,7 +1448,7 @@ at Array.forEach ((anonymous))
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        I click Messaging Api button
+                                        I enter my email and invalid password
                                         
                                     
 
@@ -1251,8 +1498,8 @@ at Array.forEach ((anonymous))
 
                                 
                                     
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
-                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
                                         </div>
                                     
                                 
@@ -1261,7 +1508,7 @@ at Array.forEach ((anonymous))
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        I click continue button
+                                        I click submit button
                                         
                                     
 
@@ -1311,8 +1558,8 @@ at Array.forEach ((anonymous))
 
                                 
                                     
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
-                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
                                         </div>
                                     
                                 
@@ -1321,187 +1568,7 @@ at Array.forEach ((anonymous))
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        I type '1' to the Local Numbers input
-                                        
-                                    
-
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
-                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        I type '1' to the Toll-free Numbers
-                                        
-                                    
-
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
-                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        I click continue button again
-                                        
-                                    
-
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
-                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        I see posible savings
+                                        I see error message
                                         
                                     
 
@@ -1602,8 +1669,8 @@ at Array.forEach ((anonymous))
                     ],
                     datasets: [{
                         data: [
+                            2,
                             0,
-                            1,
                             0,
                             0,
                             0,
