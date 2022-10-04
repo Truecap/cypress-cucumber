@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 4548000000
+              "duration": 10415000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover to Company tab",
             "result": {
               "status": "passed",
-              "duration": 534000000
+              "duration": 269000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I see open company drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 1074000000
+              "duration": 991000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8256000000
+              "duration": 7308000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I hover to Pricing tab",
             "result": {
               "status": "passed",
-              "duration": 162000000
+              "duration": 475000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I see open pricing drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 488000000
+              "duration": 1420000000
             }
           }
         ]
@@ -102,7 +102,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 7077000000
+              "duration": 11940000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I hover to Products tab",
             "result": {
               "status": "passed",
-              "duration": 141000000
+              "duration": 581000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I see open products drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 638000000
+              "duration": 725000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 7703000000
+              "duration": 8247000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "I hover to Solutions tab",
             "result": {
               "status": "passed",
-              "duration": 424000000
+              "duration": 213000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I see open solutions drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 420000000
+              "duration": 531000000
             }
           }
         ]
@@ -182,7 +182,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 7954000000
+              "duration": 8203000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "I hover to Resources tab",
             "result": {
               "status": "passed",
-              "duration": 216000000
+              "duration": 413000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I see open resources drop-down menu",
             "result": {
               "status": "passed",
-              "duration": 454000000
+              "duration": 605000000
             }
           }
         ]

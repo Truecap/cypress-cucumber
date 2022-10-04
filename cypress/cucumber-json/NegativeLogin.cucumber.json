@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8432000000
+              "duration": 9246000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I click Log in button",
             "result": {
               "status": "passed",
-              "duration": 13641000000
+              "duration": 14050000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I enter Invalid email and my password",
             "result": {
               "status": "passed",
-              "duration": 2542000000
+              "duration": 3190000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click submit button",
             "result": {
               "status": "passed",
-              "duration": 373000000
+              "duration": 518000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I see error message",
             "result": {
               "status": "passed",
-              "duration": 854000000
+              "duration": 863000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8118000000
+              "duration": 7936000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click Log in button",
             "result": {
               "status": "passed",
-              "duration": 9746000000
+              "duration": 11692000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I enter my email and invalid password",
             "result": {
               "status": "passed",
-              "duration": 2218000000
+              "duration": 2150000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I click submit button",
             "result": {
               "status": "passed",
-              "duration": 465000000
+              "duration": 427000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I see error message",
             "result": {
               "status": "passed",
-              "duration": 3064000000
+              "duration": 1293000000
             }
           }
         ]

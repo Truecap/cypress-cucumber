@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 6335000000
+              "duration": 5826000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover on resource tab",
             "result": {
               "status": "passed",
-              "duration": 1194000000
+              "duration": 691000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Resources drop-down is open and I click Saving Calculator button",
             "result": {
               "status": "passed",
-              "duration": 8972000000
+              "duration": 9327000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click Messaging Api button",
             "result": {
               "status": "passed",
-              "duration": 1155000000
+              "duration": 1577000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I click continue button",
             "result": {
               "status": "passed",
-              "duration": 1261000000
+              "duration": 1257000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I type '1' to the Local Numbers input",
             "result": {
               "status": "passed",
-              "duration": 2924000000
+              "duration": 2144000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I type '1' to the Toll-free Numbers",
             "result": {
               "status": "passed",
-              "duration": 1194000000
+              "duration": 1590000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click continue button again",
             "result": {
               "status": "passed",
-              "duration": 911000000
+              "duration": 966000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I see posible savings",
             "result": {
               "status": "passed",
-              "duration": 142000000
+              "duration": 136000000
             }
           }
         ]

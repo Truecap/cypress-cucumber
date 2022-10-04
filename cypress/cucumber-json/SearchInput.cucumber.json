@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8652000000
+              "duration": 6189000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I hover to resource tab",
             "result": {
               "status": "passed",
-              "duration": 205000000
+              "duration": 406000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Resources drop-down is open and I click Blog button",
             "result": {
               "status": "passed",
-              "duration": 6162000000
+              "duration": 9654000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I type 'number pool' to the input field and click enter button",
             "result": {
               "status": "passed",
-              "duration": 8357000000
+              "duration": 8751000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I see search results",
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 90000000
             }
           }
         ]

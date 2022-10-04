@@ -22,7 +22,7 @@
             "name": "I m launch web application",
             "result": {
               "status": "passed",
-              "duration": 8515000000
+              "duration": 4257000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I scroll to About us button and click",
             "result": {
               "status": "passed",
-              "duration": 7414000000
+              "duration": 828000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I see header About us Page",
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 8153000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on Home page button",
             "result": {
               "status": "passed",
-              "duration": 570000000
+              "duration": 515000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I see picture on home page",
             "result": {
               "status": "passed",
-              "duration": 7418000000
+              "duration": 7937000000
             }
           }
         ]
