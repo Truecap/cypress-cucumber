@@ -24,30 +24,13 @@ npx cypress open
 
 cypress run --browser chrome
 
-## Html-report
+## Plugins
 
-# Installation
+- [xpath](https://github.com/cypress-io/cypress-xpath)
+- [real-events](https://github.com/dmtrKovalenko/cypress-real-events)
 
-npm i -D @shelex/cypress-allure-plugin
+## Report
 
-# Setup
+- [Html-report](https://kailash-pathak.medium.com/generate-cucumber-html-report-in-cypress-3691d596ef19)
 
-- (After Cypress 10) Use defineConfig and setupNodeEvents inside config.js\config.ts files:
 
-const AllureWriter = require('@shelex/cypress-allure-plugin/writer');
-
-module.exports = defineConfig({
-    e2e: {
-        setupNodeEvents(on, config) {
-            AllureWriter(on, config);
-            return config;
-        }
-    }
-});
-
-- Register commands in cypress/support/index.js (or cypress/support/e2e.js for cypress 10+) file:
-
-with import:
-import '@shelex/cypress-allure-plugin';
-with require:
-require('@shelex/cypress-allure-plugin');
